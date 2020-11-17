@@ -1,3 +1,5 @@
+_**this is an old prototype version of the newer vacancy aggregator stack**_
+
 A simple automated nodejs program that parses recently opened job vacancies from multiple sources.
 
 The program uses puppeteer to crawl the provided sources. The job vacancy text contents are searched for keywords using lunr library. Text contents are hashed with jshashes and stored in order to not show already seen vacancies.
